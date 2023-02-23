@@ -72,6 +72,7 @@ const Bar = ({ labelData, bmiData }) => {
       bodyFontSize: 13,
     },
   };
+  
   return (
     <>
       <Line data={data} options={options} />
