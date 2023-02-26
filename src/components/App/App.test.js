@@ -12,3 +12,5 @@ describe("App Component", () => {
     expect(wrapper).not.toBeNull();
   });
 });
+
+global.shallow = shallow;
