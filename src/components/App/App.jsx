@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
-import 'materialize-css/dist/css/materialize.min.css';
-import './App.css';
-import BmiForm from '../BmiForm/BmiForm';
-import Info from '../Info/Info';
-import Bar from '../Bar/Bar';
-import { getData, storeData } from '../../helpers/localStorage';
+import React, { useState, useEffect } from "react";
+import { v4 as uuidv4 } from "uuid";
+//import "materialize-css/dist/css/materialize.min.css";
+import "./App.css";
+import BmiForm from "../BmiForm/BmiForm";
+import Info from "../Info/Info";
+import Bar from "../Bar/Bar";
+import { getData, storeData } from "../../helpers/localStorage";
 
 const App = () => {
   const initialState = () => getData("data") || [];

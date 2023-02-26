@@ -1,5 +1,5 @@
 import React from "react";
-import { Line } from "react-chartjs-2";
+//import { Line } from "react-chartjs-2";
 import { PropTypes } from "prop-types";
 
 const Bar = ({ labelData, bmiData }) => {
