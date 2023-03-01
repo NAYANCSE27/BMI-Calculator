@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
-//import "materialize-css/dist/css/materialize.min.css";
+import "materialize-css/dist/css/materialize.min.css";
 import "./App.css";
 import BmiForm from "../BmiForm/BmiForm";
 import Info from "../Info/Info";
