@@ -10,6 +10,7 @@ import './App.css';
 
 const App = () => {
 	const initialState = () => getData('data') || [];
+	console.log(initialState);
 	const [state, setState] = useState(initialState);
 	const [data, setData] = useState({});
 
